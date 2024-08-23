@@ -1,5 +1,6 @@
 import LinkButton from "../../components/button";
 import PageWrapper from "../../components/page-wrapper";
+import './style.css'
 
 export default function AboutPage() {
   return (
