@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-:root {
+:root,
+* {
   font-family: "Roboto Mono", "Courier New", Courier, monospace;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  transition: all 0.5s;
 }
 
 body,
@@ -14,8 +21,10 @@ body,
   min-height: 100vh;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-end {
+  align-self: flex-end;
 }
