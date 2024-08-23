@@ -1,4 +1,4 @@
-import LinkButton from "../../components/button";
+import LinkButton from "../../components/link-button";
 import PageWrapper from "../../components/page-wrapper";
 import './style.css'
 

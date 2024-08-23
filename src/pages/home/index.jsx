@@ -1,4 +1,4 @@
-import LinkButton from "../../components/button";
+import LinkButton from "../../components/link-button";
 import Card from "../../components/card";
 import PageWrapper from "../../components/page-wrapper";
 import "./style.css";
