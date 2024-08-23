@@ -1,3 +1,4 @@
+import LinkButton from "../../components/button";
 import Card from "../../components/card";
 import PageWrapper from "../../components/page-wrapper";
 import "./style.css";
@@ -53,6 +54,8 @@ export default function HomePage() {
             Transforme suas ideias em filmes memoráveis: onde a criatividade
             encontra a simplicidade.
           </p>
+
+          <LinkButton to="#">Começar agora!</LinkButton>
         </div>
 
         <div className="hero__section">

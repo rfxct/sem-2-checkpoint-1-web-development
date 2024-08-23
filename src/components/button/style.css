@@ -1,0 +1,9 @@
+.link-button {
+  background-color: #333;
+  border-radius: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 50px;
+  width: fit-content;
+}
