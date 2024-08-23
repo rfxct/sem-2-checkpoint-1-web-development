@@ -1,0 +1,19 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  gap: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__nav-item {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar__nav-item.active, .navbar__nav-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

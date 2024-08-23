@@ -1,0 +1,27 @@
+.container {
+  max-width: 1080px;
+  min-height: 100vh;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 40% auto;
+
+  margin: 40px 0;
+  gap: 90px;
+}
+
+.hero__image {
+  max-width: 100%;
+}
+
+.hero__title {
+  line-height: 1.25;
+  font-weight: 600;
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.hero__description {
+  width: 80%;
+}
