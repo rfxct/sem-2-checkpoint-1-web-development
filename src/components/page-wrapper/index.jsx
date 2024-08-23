@@ -4,10 +4,10 @@ import Navbar from "../navbar";
 
 export default function PageWrapper(props) {
   return (
-    <section className="container">
+    <>
       <Navbar />
-      {props.children}
-    </section>
+      <section className="container">{props.children}</section>
+    </>
   );
 }
 

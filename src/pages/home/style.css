@@ -4,3 +4,15 @@
   justify-content: space-between;
   gap: 16px;
 }
+
+@media (max-width: 1090px) {
+  .home__cards {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 570px) {
+  .home__cards .card {
+    width: auto;
+  }
+}
