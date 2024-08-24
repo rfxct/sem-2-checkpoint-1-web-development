@@ -1,3 +1,24 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+  gap: 12px;
+}
+
+.about-content__title {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.about-content__plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
 @media (max-width: 870px) {
   .hero {
     grid-template-columns: 1fr;

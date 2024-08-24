@@ -1,6 +1,7 @@
 import LinkButton from "../../components/link-button";
 import PageWrapper from "../../components/page-wrapper";
-import './style.css'
+import PlanCard from "../../components/plan-card";
+import "./style.css";
 
 export default function AboutPage() {
   return (
@@ -24,6 +25,24 @@ export default function AboutPage() {
             src="mocks.svg"
             alt="Capturas de tela do aplicativo"
           />
+        </div>
+      </div>
+
+      <div className="about-content">
+        <h1 className="about-content__title">Planos</h1>
+
+        <div className="about-content__plans">
+          <PlanCard title="Individual" solid></PlanCard>
+
+          <PlanCard title="Profissional - Times"></PlanCard>
+
+          <PlanCard
+            title="Corporativo"
+            subscribeText="Entre em Contato"
+            className="flex-center"
+          >
+            <img src="corporation.svg" />
+          </PlanCard>
         </div>
       </div>
     </PageWrapper>
