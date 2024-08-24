@@ -2,6 +2,17 @@ import PageWrapper from "../../components/page-wrapper";
 import SocialButton from "../../components/social-button";
 import "./style.css";
 
+/**
+ * - `href`: Link da rede social
+ * - `iconKey`: Nome do arquvio svg referente ao logo
+ * - `backgroundColor`: Cor de fundo do ícone
+ *
+ * @type {Array<{
+ *   href: string,
+ *   iconKey: string,
+ *   backgroundColor: string
+ * }>}
+ */
 const socials = [
   {
     href: "https://twitter.com",
