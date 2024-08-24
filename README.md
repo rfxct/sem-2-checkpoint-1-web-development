@@ -20,4 +20,4 @@ Se trata do checkpoint/avaliação para a matéria de Web Development, ministrad
 - Caio Venancio (RM 556030)
 - David Cordeiro (RM 557538)
 - Marcos Ferreira (RM 556228)
-- Tiago Morais RM (555619)
+- Tiago Morais (RM 555619)
