@@ -2,45 +2,43 @@ import LinkButton from "../../components/link-button";
 import Card from "../../components/card";
 import PageWrapper from "../../components/page-wrapper";
 import "./style.css";
-/**
- * Representa um cartão com informações sobre uma plataforma de mídia social.
- *
- * @typedef {Object} Card
- * @property {string} title - O título do cartão.
- * @property {string} description - A descrição detalhada do cartão.
- * @property {string} background - A descrição detalhada do cartão.
- */
 
 /**
- * Um array de cartões que representam diferentes plataformas de mídia social.
+ * - `title`: Nome do card
+ * - `description`: Descrição do card
+ * - `backgroundColor`: Cor de fundo do card
  *
- * @type {Card[]}
+ * @type {Array<{
+ *   title: string,
+ *   description: string,
+ *   backgroundColor: string
+ * }>}
  */
 const cards = [
   {
     title: "Youtube",
     description:
       "Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo.",
-    background: "#F1C2B0",
+    backgroundColor: "#F1C2B0",
   },
   {
     title: "Tiktok",
     description:
       "Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok.",
-    background: "#F9EB98",
+    backgroundColor: "#F9EB98",
   },
   {
     title: "Facebook",
     description:
       "Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook.",
-    background: "#C0D9DD",
+    backgroundColor: "#C0D9DD",
   },
 
   {
     title: "Instagram",
     description:
       "Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels.",
-    background: "#6975E8",
+    backgroundColor: "#6975E8",
   },
 ];
 
