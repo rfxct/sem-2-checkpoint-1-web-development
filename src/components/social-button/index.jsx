@@ -4,7 +4,7 @@ import "./style.css";
 export default function SocialButton({ backgroundColor, ...props }) {
   return (
     <li className="social__link" style={{ backgroundColor }}>
-      <a href={props.href} rel="noopener noreferer">
+      <a href={props.href} target="_blank" rel="noopener noreferer">
         <img src={`/social-logos/${props.iconKey}.svg`} />
       </a>
     </li>
