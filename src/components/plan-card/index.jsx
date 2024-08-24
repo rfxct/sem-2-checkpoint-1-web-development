@@ -29,3 +29,29 @@ PlanCard.propTypes = {
   subscribeText: PropTypes.string,
   className: PropTypes.string,
 };
+
+function PlanCardDetail(props) {
+  return (
+    <div className="plan-card__detail">
+      <p className="plan-card__detail__title">{props.title}</p>
+
+      <div className="plan-card__detail__pricing">
+        <span className="plan-card__detail__pricing__description">
+          {props.description}
+        </span>
+
+        <span className="plan-card__detail__pricing__price">
+          R$<b>{props.price}</b>
+        </span>
+      </div>
+    </div>
+  );
+}
+
+PlanCardDetail.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  price: PropTypes.string,
+};
+
+PlanCard.Detail = PlanCardDetail;

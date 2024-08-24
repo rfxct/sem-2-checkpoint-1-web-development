@@ -32,9 +32,26 @@ export default function AboutPage() {
         <h1 className="about-content__title">Planos</h1>
 
         <div className="about-content__plans">
-          <PlanCard title="Individual" solid></PlanCard>
+          <PlanCard title="Individual" solid>
+            <PlanCard.Detail
+              title="1 Usuário"
+              description="10 Vídeos"
+              price={15}
+            />
+          </PlanCard>
 
-          <PlanCard title="Profissional - Times"></PlanCard>
+          <PlanCard title="Profissional - Times">
+          <PlanCard.Detail
+              title="1-10 Usuários"
+              description="Vídeos Ilimitados"
+              price={40}
+            />
+            <PlanCard.Detail
+              title="+10 Usuários"
+              description="Vídeos Ilimitados"
+              price={20}
+            />
+          </PlanCard>
 
           <PlanCard
             title="Corporativo"
