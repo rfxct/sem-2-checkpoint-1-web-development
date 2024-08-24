@@ -41,7 +41,7 @@ export default function AboutPage() {
           </PlanCard>
 
           <PlanCard title="Profissional - Times">
-          <PlanCard.Detail
+            <PlanCard.Detail
               title="1-10 Usuários"
               description="Vídeos Ilimitados"
               price={40}
